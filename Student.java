@@ -1,4 +1,4 @@
-public class Student{
+public class Student extends Course{
 
     String name="Ranjita.H.Illur";
     
@@ -33,6 +33,10 @@ public class Student{
     Student s = new Student();
     
     s.display();
+    s.DisplayMarks();
+
+    s.displaylessthanfourty();
+
     
     }
     }
